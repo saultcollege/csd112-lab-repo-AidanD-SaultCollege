@@ -56,6 +56,14 @@
       </header>
       <main>
         <h1>Welcome to Aidan Doiron's Website!</h1>
+        <a href="images/Aidan.jpeg">
+        <img src="images/Aidan.jpeg"
+          width="200"
+          height="219"
+          alt="Picture of Me"
+          sizes="(max-width:500px) 150px, 300px"
+          srcset="images/Aidan_Thumbnail_1.jpeg 150w, images/Aidan_Thumbnail_2.jpeg 300w">
+        </a>  
         <p>
           My name is Aidan Doiron and this is my website. I was born in Sault
           Ste Marie, Ontario on March 6, 2003 and I still live in Sault Ste
@@ -77,6 +85,11 @@
         <h2>My Favorite Things</h2>
         <a href="https://www.ovosound.com/">
           <img src="images/logo.png" width="230" height="180" alt="OVO Sound" />
+          <figure>
+            <figcaption>
+              OVO Sound
+            </figcaption>
+          </figure>
         </a>
         <h3>Games</h3>
         <ol>
@@ -92,6 +105,25 @@
           A world of struggle. <br />
           <cite>by <span class="author">Kobayashi Issa</span></cite>
         </p>
+        <h3>
+          Public Domain Audiobook
+        </h3>
+        <audio src="http://www.archive.org/download/vision_2110.poem_librivox/vision_kilmer_ac_128kb.mp3" controls>
+          <a href="http://www.archive.org/download/vision_2110.poem_librivox/vision_kilmer_ac_128kb.mp3">
+            Download the original audio file
+          </a>
+        </audio>
+        <h3>
+          YouTube Video
+        </h3>
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/gP92j-uEnps" 
+        title="YouTube video player" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
       </main>
       <footer>
         <hr />
@@ -107,6 +139,14 @@
             Aidan Doiron
           </a>
         </p>
+        <picture>
+          <source media="(max-width:70px)" type="image/svg" srcset="images/sc-logo.svg">
+          <img src="images/sc-logo.png"
+          width="70"
+          height="65"
+          alt="Sault College Logo"
+          srcset="images/sc-logo.png, images/sc-logo@1.5x.png 1.5x, images/sc-logo@2x.png 2x">
+        </picture>
       </footer>
       <a href="#top" title="Back to top">◤</a>
     </div>
